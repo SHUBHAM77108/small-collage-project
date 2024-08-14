@@ -18,7 +18,7 @@
     <nav class="p-3 flex bg-white justify-between items-center fixed top-0 left-0 right-0 z-20 shadow-md">
         <a href="#" id="brand" class="flex gap-2 items-center flex-1">
             <img class="object-cover max-w-12 max-h-12" src="./assets/logo.png" alt="Logo">
-            <span class="font-medium font-display text-2xl">STUDY <span class="text-logoColor text-2xl font-bold">HACK</span></span>
+            <span class="font-bold text-primary font-display text-3xl">A<span class="text-logoColor text-2xl font-bold">cademix</span></span>
         </a>
         <div id="nav-menu" class="hidden lg:flex gap-12">
             <a href="#hero" class="font-medium hover:text-primary">Home</a>
@@ -48,17 +48,17 @@
         </div>
 
         <button class="p-2 lg:hidden" id="menuButton">
-            <i class="fa-solid fa-bars text-gray-600"></i>
+            <i class="fa-solid fa-bars text-gray-600 text-2xl"></i>
         </button>
     
         <div id="nav-dialog" class="hidden fixed z-10 lg:hidden bg-white inset-0 p-3">
             <div id="nav-bar" class="flex justify-between">
                 <a href="#" id="brand" class="flex gap-2 items-center">
                     <img class="object-cover max-w-12 max-h-12" src="./assets/logo.png" alt="Logo">
-                    <span class="text-lg font-medium font-display">ToDesktop</span>
+                    <span class="font-bold text-primary font-display text-3xl">A<span class="text-logoColor text-2xl font-bold">cademix</span></span>
                 </a>
                 <button class="p-2 lg:hidden" id="closeButton">
-                    <i class="fa-solid fa-xmark text-gray-600"></i>
+                    <i class="fa-solid fa-xmark text-gray-600 text-2xl"></i>
                 </button>
             </div>
             <div class="mt-6">
@@ -91,9 +91,17 @@
         </div>
     </nav>
 
-    <div class="">
-
-    </div>
+    <!-- page-scroll-up -->
+    <a href="#">
+        <div class="page-scroll-up cursor-pointer flex flex-shrink-0 overflow-hidden group fixed right-5 bottom-8 w-[12vw] h-[12vw] md:w-[6vw] md:h-[6vw] min-w-[65px] min-h-[65px] z-20 rounded-full border">
+            <div class="gradient-hover-outer h-full w-full rounded-full">
+                <div class="gradient-hover-inner flex flex-shrink-0 items-center justify-center rounded-full h-full w-full">
+                    <i class="fa-solid fa-arrow-up fa-2x text-primary bg-transparent"></i>
+                </div>
+            </div>
+        </div>
+    </a>
+    
     <!-- Main -->
     <main id="heros" class="mt-16">
         <!-- Hero section -->
@@ -128,280 +136,34 @@
             <div class="notes_container py-20 sm:py-20 px-1 sm:px-20 md:px-10">
                 <h2 class="main-title text-4xl md:text-5xl pl-5 md:pl-0 sm:font-semibold">Notes</h2>
                 <div class="flex flex-col md:flex-row px-8 md:px-0 md:flex-wrap justify-center gap-4 md:gap-8 sm:gap-12 mt-10 md:mt-20">
-                    <div class="overflow-hidden group card-containers rounded-2xl shadow-md">
-                        <div class="rounded-2xl gradient-hover-outer">
-                            <div class="rounded-2xl gradient-hover-inner flex flex-col">
+
+                    <div class="overflow-hidden xl:w-[22vw] lg:w-[24vw] md:w-[34vw] group card-containers rounded-2xl shadow-md">
+                        <div class="rounded-2xl h-full gradient-hover-outer">
+                            <div class="rounded-2xl h-full gradient-hover-inner flex flex-col">
                                 <div class="w-full">
                                     <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
                                 </div>
-                                <div class="flex relative flex-col justify-center items-center gap-6 p-6">
-                                    <div class="flex items-center gap-4">
-                                        <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
+                                <div class="flex relative h-full w-full flex-col justify-evenly items-center gap-6 p-6">
+                                    <div class="flex items-center w-full justify-self-auto gap-4">
+                                        <div class="w-12 h-12 bg-blue-200 flex-shrink-0 flex items-center justify-center rounded-full">
                                             <i class="fa-solid fa-code text-indigo-800"></i>
                                         </div>
-                                        <h3 class="text-2xl font-semibold">Javascript Notes</h3>
+                                        <h3 class="text-2xl font-semibold">JavaScript baba notes JavaScript</h3>
                                     </div>
-                                    <div class="flex items-center gap-4">
-                                        <button class="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
+                                    <div class="flex w-full justify-evenly gap-4">
+                                        <button class="overflow-hidden w-32 p-2 py-3 h-12 bg-black text-white border-none rounded-md font-bold cursor-pointer relative text-xl z-10 group flex items-center justify-center">
                                             View note
                                             <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
                                             <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
                                             <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">Explore!</span>
+                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 text-center absolute inset-0 flex justify-center items-center z-10">Explore!</span>
                                         </button>
-                                        <button class="transition duration-300 show-hidden-menu">
-                                            <i class="fa-solid fa-arrow-left"></i> More MD
-                                        </button>
+                                        
+                                        <button class="transition flex items-center duration-300 show-hidden-menu underline">More MD</button>
                                     </div>
                                     <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
                                         <button class="absolute top-2 right-3 close-hidden-menu">
-                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
-                                        </button>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="overflow-hidden group card-containers rounded-2xl shadow-md">
-                        <div class="rounded-2xl gradient-hover-outer">
-                            <div class="rounded-2xl gradient-hover-inner flex flex-col">
-                                <div class="w-full">
-                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
-                                </div>
-                                <div class="flex relative flex-col justify-center items-center gap-6 p-6">
-                                    <div class="flex items-center gap-4">
-                                        <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
-                                            <i class="fa-solid fa-code text-indigo-800"></i>
-                                        </div>
-                                        <h3 class="text-2xl font-semibold">Javascript Notes</h3>
-                                    </div>
-                                    <div class="flex items-center gap-4">
-                                        <button class="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
-                                            View note
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">Explore!</span>
-                                        </button>
-                                        <button class="transition duration-300 show-hidden-menu">
-                                            <i class="fa-solid fa-arrow-left"></i> More MD
-                                        </button>
-                                    </div>
-                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
-                                        <button class="absolute top-2 right-3 close-hidden-menu">
-                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
-                                        </button>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="overflow-hidden group card-containers rounded-2xl shadow-md">
-                        <div class="rounded-2xl gradient-hover-outer">
-                            <div class="rounded-2xl gradient-hover-inner flex flex-col">
-                                <div class="w-full">
-                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
-                                </div>
-                                <div class="flex relative flex-col justify-center items-center gap-6 p-6">
-                                    <div class="flex items-center gap-4">
-                                        <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
-                                            <i class="fa-solid fa-code text-indigo-800"></i>
-                                        </div>
-                                        <h3 class="text-2xl font-semibold">Javascript Notes</h3>
-                                    </div>
-                                    <div class="flex items-center gap-4">
-                                        <button class="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
-                                            View note
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">Explore!</span>
-                                        </button>
-                                        <button class="transition duration-300 show-hidden-menu">
-                                            <i class="fa-solid fa-arrow-left"></i> More MD
-                                        </button>
-                                    </div>
-                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
-                                        <button class="absolute top-2 right-3 close-hidden-menu">
-                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
-                                        </button>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="overflow-hidden group card-containers rounded-2xl shadow-md">
-                        <div class="rounded-2xl gradient-hover-outer">
-                            <div class="rounded-2xl gradient-hover-inner flex flex-col">
-                                <div class="w-full">
-                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
-                                </div>
-                                <div class="flex relative flex-col justify-center items-center gap-6 p-6">
-                                    <div class="flex items-center gap-4">
-                                        <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
-                                            <i class="fa-solid fa-code text-indigo-800"></i>
-                                        </div>
-                                        <h3 class="text-2xl font-semibold">Javascript Notes</h3>
-                                    </div>
-                                    <div class="flex items-center gap-4">
-                                        <button class="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
-                                            View note
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">Explore!</span>
-                                        </button>
-                                        <button class="transition duration-300 show-hidden-menu">
-                                            <i class="fa-solid fa-arrow-left"></i> More MD
-                                        </button>
-                                    </div>
-                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
-                                        <button class="absolute top-2 right-3 close-hidden-menu">
-                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
-                                        </button>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="overflow-hidden group card-containers rounded-2xl shadow-md">
-                        <div class="rounded-2xl gradient-hover-outer">
-                            <div class="rounded-2xl gradient-hover-inner flex flex-col">
-                                <div class="w-full">
-                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
-                                </div>
-                                <div class="flex relative flex-col justify-center items-center gap-6 p-6">
-                                    <div class="flex items-center gap-4">
-                                        <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
-                                            <i class="fa-solid fa-code text-indigo-800"></i>
-                                        </div>
-                                        <h3 class="text-2xl font-semibold">Javascript Notes</h3>
-                                    </div>
-                                    <div class="flex items-center gap-4">
-                                        <button class="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
-                                            View note
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">Explore!</span>
-                                        </button>
-                                        <button class="transition duration-300 show-hidden-menu">
-                                            <i class="fa-solid fa-arrow-left"></i> More MD
-                                        </button>
-                                    </div>
-                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
-                                        <button class="absolute top-2 right-3 close-hidden-menu">
-                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
-                                        </button>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="overflow-hidden group card-containers rounded-2xl shadow-md">
-                        <div class="rounded-2xl gradient-hover-outer">
-                            <div class="rounded-2xl gradient-hover-inner flex flex-col">
-                                <div class="w-full">
-                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
-                                </div>
-                                <div class="flex relative flex-col justify-center items-center gap-6 p-6">
-                                    <div class="flex items-center gap-4">
-                                        <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
-                                            <i class="fa-solid fa-code text-indigo-800"></i>
-                                        </div>
-                                        <h3 class="text-2xl font-semibold">Javascript Notes</h3>
-                                    </div>
-                                    <div class="flex items-center gap-4">
-                                        <button class="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
-                                            View note
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">Explore!</span>
-                                        </button>
-                                        <button class="transition duration-300 show-hidden-menu">
-                                            <i class="fa-solid fa-arrow-left"></i> More MD
-                                        </button>
-                                    </div>
-                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
-                                        <button class="absolute top-2 right-3 close-hidden-menu">
-                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
-                                        </button>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="overflow-hidden group card-containers rounded-2xl shadow-md">
-                        <div class="rounded-2xl gradient-hover-outer">
-                            <div class="rounded-2xl gradient-hover-inner flex flex-col">
-                                <div class="w-full">
-                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
-                                </div>
-                                <div class="flex relative flex-col justify-center items-center gap-6 p-6">
-                                    <div class="flex items-center gap-4">
-                                        <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
-                                            <i class="fa-solid fa-code text-indigo-800"></i>
-                                        </div>
-                                        <h3 class="text-2xl font-semibold">Javascript Notes</h3>
-                                    </div>
-                                    <div class="flex items-center gap-4">
-                                        <button class="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
-                                            View note
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">Explore!</span>
-                                        </button>
-                                        <button class="transition duration-300 show-hidden-menu">
-                                            <i class="fa-solid fa-arrow-left"></i> More MD
-                                        </button>
-                                    </div>
-                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
-                                        <button class="absolute top-2 right-3 close-hidden-menu">
-                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
+                                            <i class="fa-solid fa-xmark text-gray-600 text-xl"></i>
                                         </button>
                                         <a href="" class="w-fit p-2"><p>1Notes</p></a>
                                         <a href="" class="w-fit p-2"><p>1Notes</p></a>
@@ -415,30 +177,29 @@
                         </div>
                     </div>
 
-                    <div class="overflow-hidden group card-containers rounded-2xl shadow-md">
-                        <div class="rounded-2xl gradient-hover-outer">
-                            <div class="rounded-2xl gradient-hover-inner flex flex-col">
+                    <div class="overflow-hidden xl:w-[22vw] lg:w-[24vw] md:w-[34vw] group card-containers rounded-2xl shadow-md">
+                        <div class="rounded-2xl h-full gradient-hover-outer">
+                            <div class="rounded-2xl h-full gradient-hover-inner flex flex-col">
                                 <div class="w-full">
                                     <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
                                 </div>
-                                <div class="flex relative flex-col justify-center items-center gap-6 p-6">
-                                    <div class="flex items-center gap-4">
-                                        <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
+                                <div class="flex relative h-full w-full flex-col justify-evenly items-center gap-6 p-6">
+                                    <div class="flex items-center w-full justify-self-auto gap-4">
+                                        <div class="w-12 h-12 bg-blue-200 flex-shrink-0 flex items-center justify-center rounded-full">
                                             <i class="fa-solid fa-code text-indigo-800"></i>
                                         </div>
-                                        <h3 class="text-2xl font-semibold">Javascript Notes</h3>
+                                        <h3 class="text-2xl font-semibold">JavaScript baba notes JavaScript</h3>
                                     </div>
-                                    <div class="flex items-center gap-4">
-                                        <button class="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
+                                    <div class="flex w-full justify-evenly gap-4">
+                                        <button class="overflow-hidden w-32 p-2 py-3 h-12 bg-black text-white border-none rounded-md font-bold cursor-pointer relative text-xl z-10 group flex items-center justify-center">
                                             View note
                                             <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
                                             <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
                                             <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">Explore!</span>
+                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 text-center absolute inset-0 flex justify-center items-center z-10">Explore!</span>
                                         </button>
-                                        <button class="transition duration-300 show-hidden-menu">
-                                            <i class="fa-solid fa-arrow-left"></i> More MD
-                                        </button>
+                                        
+                                        <button class="transition flex items-center duration-300 show-hidden-menu underline">More MD</button>
                                     </div>
                                     <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
                                         <button class="absolute top-2 right-3 close-hidden-menu">
@@ -455,6 +216,251 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="overflow-hidden xl:w-[22vw] lg:w-[24vw] md:w-[34vw] group card-containers rounded-2xl shadow-md">
+                        <div class="rounded-2xl h-full gradient-hover-outer">
+                            <div class="rounded-2xl h-full gradient-hover-inner flex flex-col">
+                                <div class="w-full">
+                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
+                                </div>
+                                <div class="flex relative h-full w-full flex-col justify-evenly items-center gap-6 p-6">
+                                    <div class="flex items-center w-full justify-self-auto gap-4">
+                                        <div class="w-12 h-12 bg-blue-200 flex-shrink-0 flex items-center justify-center rounded-full">
+                                            <i class="fa-solid fa-code text-indigo-800"></i>
+                                        </div>
+                                        <h3 class="text-2xl font-semibold">JavaScript baba notes JavaScript</h3>
+                                    </div>
+                                    <div class="flex w-full justify-evenly gap-4">
+                                        <button class="overflow-hidden w-32 p-2 py-3 h-12 bg-black text-white border-none rounded-md font-bold cursor-pointer relative text-xl z-10 group flex items-center justify-center">
+                                            View note
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 text-center absolute inset-0 flex justify-center items-center z-10">Explore!</span>
+                                        </button>
+                                        
+                                        <button class="transition flex items-center duration-300 show-hidden-menu underline">More MD</button>
+                                    </div>
+                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
+                                        <button class="absolute top-2 right-3 close-hidden-menu">
+                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
+                                        </button>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="overflow-hidden xl:w-[22vw] lg:w-[24vw] md:w-[34vw] group card-containers rounded-2xl shadow-md">
+                        <div class="rounded-2xl h-full gradient-hover-outer">
+                            <div class="rounded-2xl h-full gradient-hover-inner flex flex-col">
+                                <div class="w-full">
+                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
+                                </div>
+                                <div class="flex relative h-full w-full flex-col justify-evenly items-center gap-6 p-6">
+                                    <div class="flex items-center w-full justify-self-auto gap-4">
+                                        <div class="w-12 h-12 bg-blue-200 flex-shrink-0 flex items-center justify-center rounded-full">
+                                            <i class="fa-solid fa-code text-indigo-800"></i>
+                                        </div>
+                                        <h3 class="text-2xl font-semibold">notes</h3>
+                                    </div>
+                                    <div class="flex w-full justify-evenly gap-4">
+                                        <button class="overflow-hidden w-32 p-2 py-3 h-12 bg-black text-white border-none rounded-md font-bold cursor-pointer relative text-xl z-10 group flex items-center justify-center">
+                                            View note
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 text-center absolute inset-0 flex justify-center items-center z-10">Explore!</span>
+                                        </button>
+                                        
+                                        <button class="transition flex items-center duration-300 show-hidden-menu underline">More MD</button>
+                                    </div>
+                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
+                                        <button class="absolute top-2 right-3 close-hidden-menu">
+                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
+                                        </button>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="overflow-hidden xl:w-[22vw] lg:w-[24vw] md:w-[34vw] group card-containers rounded-2xl shadow-md">
+                        <div class="rounded-2xl h-full gradient-hover-outer">
+                            <div class="rounded-2xl h-full gradient-hover-inner flex flex-col">
+                                <div class="w-full">
+                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
+                                </div>
+                                <div class="flex relative h-full w-full flex-col justify-evenly items-center gap-6 p-6">
+                                    <div class="flex items-center w-full justify-self-auto gap-4">
+                                        <div class="w-12 h-12 bg-blue-200 flex-shrink-0 flex items-center justify-center rounded-full">
+                                            <i class="fa-solid fa-code text-indigo-800"></i>
+                                        </div>
+                                        <h3 class="text-2xl font-semibold">baba</h3>
+                                    </div>
+                                    <div class="flex w-full justify-evenly gap-4">
+                                        <button class="overflow-hidden w-32 p-2 py-3 h-12 bg-black text-white border-none rounded-md font-bold cursor-pointer relative text-xl z-10 group flex items-center justify-center">
+                                            View note
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 text-center absolute inset-0 flex justify-center items-center z-10">Explore!</span>
+                                        </button>
+                                        
+                                        <button class="transition flex items-center duration-300 show-hidden-menu underline">More MD</button>
+                                    </div>
+                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
+                                        <button class="absolute top-2 right-3 close-hidden-menu">
+                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
+                                        </button>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="overflow-hidden xl:w-[22vw] lg:w-[24vw] md:w-[34vw] group card-containers rounded-2xl shadow-md">
+                        <div class="rounded-2xl h-full gradient-hover-outer">
+                            <div class="rounded-2xl h-full gradient-hover-inner flex flex-col">
+                                <div class="w-full">
+                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
+                                </div>
+                                <div class="flex relative h-full w-full flex-col justify-evenly items-center gap-6 p-6">
+                                    <div class="flex items-center w-full justify-self-auto gap-4">
+                                        <div class="w-12 h-12 bg-blue-200 flex-shrink-0 flex items-center justify-center rounded-full">
+                                            <i class="fa-solid fa-code text-indigo-800"></i>
+                                        </div>
+                                        <h3 class="text-2xl font-semibold">JavaScript baba notes JavaScript</h3>
+                                    </div>
+                                    <div class="flex w-full justify-evenly gap-4">
+                                        <button class="overflow-hidden w-32 p-2 py-3 h-12 bg-black text-white border-none rounded-md font-bold cursor-pointer relative text-xl z-10 group flex items-center justify-center">
+                                            View note
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 text-center absolute inset-0 flex justify-center items-center z-10">Explore!</span>
+                                        </button>
+                                        
+                                        <button class="transition flex items-center duration-300 show-hidden-menu underline">More MD</button>
+                                    </div>
+                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
+                                        <button class="absolute top-2 right-3 close-hidden-menu">
+                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
+                                        </button>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="overflow-hidden xl:w-[22vw] lg:w-[24vw] md:w-[34vw] group card-containers rounded-2xl shadow-md">
+                        <div class="rounded-2xl h-full gradient-hover-outer">
+                            <div class="rounded-2xl h-full gradient-hover-inner flex flex-col">
+                                <div class="w-full">
+                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
+                                </div>
+                                <div class="flex relative h-full w-full flex-col justify-evenly items-center gap-6 p-6">
+                                    <div class="flex items-center w-full justify-self-auto gap-4">
+                                        <div class="w-12 h-12 bg-blue-200 flex-shrink-0 flex items-center justify-center rounded-full">
+                                            <i class="fa-solid fa-code text-indigo-800"></i>
+                                        </div>
+                                        <h3 class="text-2xl font-semibold">JavaScript baba notes JavaScript</h3>
+                                    </div>
+                                    <div class="flex w-full justify-evenly gap-4">
+                                        <button class="overflow-hidden w-32 p-2 py-3 h-12 bg-black text-white border-none rounded-md font-bold cursor-pointer relative text-xl z-10 group flex items-center justify-center">
+                                            View note
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 text-center absolute inset-0 flex justify-center items-center z-10">Explore!</span>
+                                        </button>
+                                        
+                                        <button class="transition flex items-center duration-300 show-hidden-menu underline">More MD</button>
+                                    </div>
+                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
+                                        <button class="absolute top-2 right-3 close-hidden-menu">
+                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
+                                        </button>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="overflow-hidden xl:w-[22vw] lg:w-[24vw] md:w-[34vw] group card-containers rounded-2xl shadow-md">
+                        <div class="rounded-2xl h-full gradient-hover-outer">
+                            <div class="rounded-2xl h-full gradient-hover-inner flex flex-col">
+                                <div class="w-full">
+                                    <img src="./assets/asset 57.svg" alt="" class="rounded-t-2xl">
+                                </div>
+                                <div class="flex relative h-full w-full flex-col justify-evenly items-center gap-6 p-6">
+                                    <div class="flex items-center w-full justify-self-auto gap-4">
+                                        <div class="w-12 h-12 bg-blue-200 flex-shrink-0 flex items-center justify-center rounded-full">
+                                            <i class="fa-solid fa-code text-indigo-800"></i>
+                                        </div>
+                                        <h3 class="text-2xl font-semibold">JavaScript</h3>
+                                    </div>
+                                    <div class="flex w-full justify-evenly gap-4">
+                                        <button class="overflow-hidden w-32 p-2 py-3 h-12 bg-black text-white border-none rounded-md font-bold cursor-pointer relative text-xl z-10 group flex items-center justify-center">
+                                            View note
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#4fa594] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                                            <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#227968] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                                            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 text-center absolute inset-0 flex justify-center items-center z-10">Explore!</span>
+                                        </button>
+                                        
+                                        <button class="transition flex items-center duration-300 show-hidden-menu underline">More MD</button>
+                                    </div>
+                                    <div class="w-[90%] h-[80%] text-black rounded-2xl p-4 flex justify-center flex-wrap absolute z-10 overflow-hidden after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-16 hover:before:translate-y-8 hover:before:-translate-x-36 hover:duration-500 after:absolute after:w-14 after:h-14 after:bg-green-700 after:rounded-full after:blur-xl after:bottom-16 after:right-16 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-10 before:right-16 before:w-14 before:h-14 items-center bg-[#fdfaed] shadow-md hidden-menu">
+                                        <button class="absolute top-2 right-3 close-hidden-menu">
+                                            <i class="fa-solid fa-xmark text-gray-600 text-lg"></i>
+                                        </button>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                        <a href="" class="w-fit p-2"><p>1Notes</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                    
+
                 </div>
             </div>
         </section>
@@ -541,71 +547,75 @@
             <div class="notes_container py-20 sm:py-24 sm:px-20 md:px-10">
                 <h2 class="main-title text-4xl md:text-5xl pl-5 md:pl-0 sm:font-semibold">Materials</h2>
                 <div class="flex flex-col md:flex-row justify-center flex-wrap w-full px-8 md:px-0 gap-6 mt-20">
-                    <div class="overflow-hidden group flex flex-col justify-center items-center w-full md:w-[30%] h-80 md:h-96 rounded-2xl shadow-md">
-                        <div class="gradient-hover-outer flex flex-col justify-center items-center h-full w-full">
-                            <div class="gradient-hover-inner flex flex-col justify-center items-center w-full h-full rounded-2xl">
-                                <!-- Swiper -->
-                                <div class="swiper mySwiper rounded-t-2xl">
+                    <div class="overflow-hidden group flex flex-col justify-start items-center w-full md:w-[30%] rounded-2xl shadow-md">
+                        <div class="gradient-hover-outer flex flex-col justify-center items-center w-full h-full">
+                            <div class="gradient-hover-inner flex flex-col items-center w-full h-full rounded-2xl">
+                                <!-- Swiper section with fixed height -->
+                                <div class="swiper mySwiper rounded-t-2xl w-full h-60 md:h-45 lg:h-60 xl:h-90 xl:h-90">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide">Slide 1</div>
-                                        <div class="swiper-slide">Slide 2</div>
-                                        <div class="swiper-slide">Slide 3</div>
-                                        <div class="swiper-slide">Slide 4</div>
+                                        <div class="swiper-slide"><img src="assets/m1.jpg" alt="materials 1"></div>
+                                        <div class="swiper-slide"><img src="assets/m2.jpg" alt="materials 2"></div>
+                                        <div class="swiper-slide"><img src="assets/m3.jpg" alt="materials 3"></div>
+                                        <div class="swiper-slide"><img src="assets/mar.jpg" alt="materials 4"></div>
                                     </div>
                                     <div class="swiper-button-next"></div>
                                     <div class="swiper-button-prev"></div>
                                     <div class="swiper-pagination"></div>
                                 </div>
-                                <div class="flex flex-col p-6">
-                                    <h3 class="text-2xl font-semibold text-center">Javascript Notes</h3>
+                                <!-- Content section -->
+                                <div class="flex flex-col items-center p-6 w-full h-auto">
+                                    <h3 class="text-2xl font-semibold text-center">Javascript Notes Javascript Notes Javascript Notes</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="overflow-hidden group flex flex-col justify-center items-center w-full md:w-[30%] h-80 md:h-96 rounded-2xl shadow-sm">
-                        <div class="gradient-hover-outer flex flex-col justify-center items-center h-full w-full">
-                            <div class="gradient-hover-inner flex flex-col justify-center items-center w-full h-full rounded-2xl">
-                                <!-- Swiper -->
-                                <div class="swiper mySwiper rounded-t-2xl">
+
+                    <div class="overflow-hidden group flex flex-col justify-start items-center w-full md:w-[30%] rounded-2xl shadow-md">
+                        <div class="gradient-hover-outer flex flex-col justify-center items-center w-full h-full">
+                            <div class="gradient-hover-inner flex flex-col items-center w-full h-full rounded-2xl">
+                                <!-- Swiper section with fixed height -->
+                                <div class="swiper mySwiper rounded-t-2xl w-full h-60 md:h-45 lg:h-60 xl:h-90 xl:h-90">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide">Slide 1</div>
-                                        <div class="swiper-slide">Slide 2</div>
-                                        <div class="swiper-slide">Slide 3</div>
-                                        <div class="swiper-slide">Slide 4</div>
+                                        <div class="swiper-slide"><img src="assets/m1.jpg" alt="materials 1"></div>
+                                        <div class="swiper-slide"><img src="assets/m2.jpg" alt="materials 2"></div>
+                                        <div class="swiper-slide"><img src="assets/m3.jpg" alt="materials 3"></div>
+                                        <div class="swiper-slide"><img src="assets/mar.jpg" alt="materials 4"></div>
                                     </div>
                                     <div class="swiper-button-next"></div>
                                     <div class="swiper-button-prev"></div>
                                     <div class="swiper-pagination"></div>
                                 </div>
-                                <div class="flex flex-col p-6">
+                                <!-- Content section -->
+                                <div class="flex flex-col items-center p-6 w-full h-auto">
                                     <h3 class="text-2xl font-semibold text-center">Javascript Notes</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="overflow-hidden group flex flex-col justify-center items-center w-full md:w-[30%] h-80 md:h-96 rounded-2xl shadow-md">
-                        <div class="gradient-hover-outer flex flex-col justify-center items-center h-full w-full">
-                            <div class="gradient-hover-inner flex flex-col justify-center items-center w-full h-full rounded-2xl">
-                                <!-- Swiper -->
-                                <div class="swiper mySwiper rounded-t-2xl">
+
+                    <div class="overflow-hidden group flex flex-col justify-start items-center w-full md:w-[30%] rounded-2xl shadow-md">
+                        <div class="gradient-hover-outer flex flex-col justify-center items-center w-full h-full">
+                            <div class="gradient-hover-inner flex flex-col items-center w-full h-full rounded-2xl">
+                                <!-- Swiper section with fixed height -->
+                                <div class="swiper mySwiper rounded-t-2xl w-full h-60 md:h-45 lg:h-60 xl:h-90 xl:h-90">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide">Slide 1</div>
-                                        <div class="swiper-slide">Slide 2</div>
-                                        <div class="swiper-slide">Slide 3</div>
-                                        <div class="swiper-slide">Slide 4</div>
+                                        <div class="swiper-slide"><img src="assets/m1.jpg" alt="materials 1"></div>
+                                        <div class="swiper-slide"><img src="assets/m2.jpg" alt="materials 2"></div>
+                                        <div class="swiper-slide"><img src="assets/m3.jpg" alt="materials 3"></div>
+                                        <div class="swiper-slide"><img src="assets/mar.jpg" alt="materials 4"></div>
                                     </div>
                                     <div class="swiper-button-next"></div>
                                     <div class="swiper-button-prev"></div>
                                     <div class="swiper-pagination"></div>
                                 </div>
-                                <div class="flex flex-col p-6">
+                                <!-- Content section -->
+                                <div class="flex flex-col items-center p-6 w-full h-auto">
                                     <h3 class="text-2xl font-semibold text-center">Javascript Notes</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                 </div>
             </div>
@@ -648,10 +658,10 @@
             <a href="#" id="brand" class="flex flex-col gap-4 items-center">
                 <div class="flex gap-2 items-center">
                     <img class="object-cover max-w-12 max-h-12" src="./assets/logo.png" alt="Logo">
-                    <span class="text-lg font-medium font-display">ToDesktop</span>
+                    <span class="font-bold text-primary font-display text-3xl">A<span class="text-logoColor text-2xl font-bold">cademix</span></span>
                 </div>
                 <div>
-                    <p class="text-sm text-gray-400">© 2024 ToDesktop, Inc. All rights reserved.</p>
+                    <p class="text-sm text-gray-400">© 2024 Academix, Inc. All rights reserved.</p>
                 </div>
             </a>
         </div>
